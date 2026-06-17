@@ -11,8 +11,8 @@ This repository is for sharing compiled plugin zip assets only. It does not cont
 - AU identity: `aufx G100 SMfo`
 - macOS package: `GatewayOS-V1.1.0-macOS-AU-VST3.zip`
 - macOS SHA256: `46CD30DEF19D75B278B3BE22786990634C88EE0415FE2593E93BF3519D4DF9AA`
-- Windows package: `GatewayOSPresetV4-Windows-VST3-x64.zip`
-- Windows SHA256: `D135D89270E16118C67AF098CB241BF51CF7C0E06FFAF8C5ECF198A87AA8EBFE`
+- Windows package: `GatewayOS-V1.1.0-Windows-VST3-x64.zip`
+- Windows SHA256: `04CA6C1D37B1FFC4DFD9B9E83FECC72F01F4F8431393D50339DA649A667AC210`
 
 Download the zip for your platform from the V1.1.0 release page.
 

@@ -13,9 +13,9 @@ Both macOS formats are packaged in `GatewayOS-V1.1.0-macOS-AU-VST3.zip`.
 
 Windows:
 
-- `Gateway OS Preset V4.vst3`
+- `Gateway OS V1.1.0.vst3`
 
-The Windows VST3 is packaged in `GatewayOSPresetV4-Windows-VST3-x64.zip`.
+The Windows VST3 is packaged in `GatewayOS-V1.1.0-Windows-VST3-x64.zip`.
 
 macOS SHA256:
 
@@ -23,7 +23,7 @@ macOS SHA256:
 
 Windows SHA256:
 
-`D135D89270E16118C67AF098CB241BF51CF7C0E06FFAF8C5ECF198A87AA8EBFE`
+`04CA6C1D37B1FFC4DFD9B9E83FECC72F01F4F8431393D50339DA649A667AC210`
 
 ## Preset Function
 
