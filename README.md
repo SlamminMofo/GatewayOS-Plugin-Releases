@@ -4,15 +4,17 @@ Binary-only Gateway OS plugin releases.
 
 This repository is for sharing compiled plugin zip assets only. It does not contain the Gateway OS source code, build files, project files, or development history.
 
-## Latest Private Mac Release
+## Latest Public Plugin Release
 
 - Version: Gateway OS V1.1.0
-- Format: macOS AU + VST3 zip
+- Format: macOS AU/VST3 and Windows VST3 zip assets
 - AU identity: `aufx G100 SMfo`
-- Package: `GatewayOS-V1.1.0-macOS-AU-VST3.zip`
-- SHA256: `46CD30DEF19D75B278B3BE22786990634C88EE0415FE2593E93BF3519D4DF9AA`
+- macOS package: `GatewayOS-V1.1.0-macOS-AU-VST3.zip`
+- macOS SHA256: `46CD30DEF19D75B278B3BE22786990634C88EE0415FE2593E93BF3519D4DF9AA`
+- Windows package: `GatewayOSPresetV4-Windows-VST3-x64.zip`
+- Windows SHA256: `D135D89270E16118C67AF098CB241BF51CF7C0E06FFAF8C5ECF198A87AA8EBFE`
 
-Download the zip from the V1.1.0 release page.
+Download the zip for your platform from the V1.1.0 release page.
 
 ## Preset System
 

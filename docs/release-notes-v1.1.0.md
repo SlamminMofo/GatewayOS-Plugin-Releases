@@ -1,17 +1,29 @@
 # Gateway OS V1.1.0
 
-Private binary-only macOS release.
+Public binary-only plugin release.
 
 ## Included
+
+macOS:
 
 - `Gateway OS V1.1.0.component`
 - `Gateway OS V1.1.0.vst3`
 
-Both are packaged in `GatewayOS-V1.1.0-macOS-AU-VST3.zip`.
+Both macOS formats are packaged in `GatewayOS-V1.1.0-macOS-AU-VST3.zip`.
 
-SHA256:
+Windows:
+
+- `Gateway OS Preset V4.vst3`
+
+The Windows VST3 is packaged in `GatewayOSPresetV4-Windows-VST3-x64.zip`.
+
+macOS SHA256:
 
 `46CD30DEF19D75B278B3BE22786990634C88EE0415FE2593E93BF3519D4DF9AA`
+
+Windows SHA256:
+
+`D135D89270E16118C67AF098CB241BF51CF7C0E06FFAF8C5ECF198A87AA8EBFE`
 
 ## Preset Function
 
@@ -49,3 +61,4 @@ DAW project recall embeds the full 31-slot preset bank. Gateway OS also keeps a 
 - ARM64-aware bundle lint passed.
 - AU validation passed with `auval -v aufx G100 SMfo`.
 - AU version reports `1.1.0 (0x10100)`.
+- Windows VST3 x64 package hash verified.
