@@ -6,19 +6,29 @@ This repository is for sharing compiled plugin zip assets only. It does not cont
 
 ## Latest Public Plugin Release
 
-- Version: Gateway OS V1.1.0
-- Format: macOS AU/VST3 and Windows VST3 zip assets
-- AU identity: `aufx G100 SMfo`
-- macOS package: `GatewayOS-V1.1.0-macOS-AU-VST3.zip`
-- macOS SHA256: `46CD30DEF19D75B278B3BE22786990634C88EE0415FE2593E93BF3519D4DF9AA`
-- Windows package: `GatewayOS-V1.1.0-Windows-VST3-x64.zip`
-- Windows SHA256: `04CA6C1D37B1FFC4DFD9B9E83FECC72F01F4F8431393D50339DA649A667AC210`
+- Version: Gateway OS V1.2.7
+- Format: macOS AU component zip
+- AU identity: `aufx G127 SMfo`
+- Bundle identifier: `com.SlamminMofo.audiounit.GatewayOSV127`
+- macOS package: `GatewayOS-V1.2.7-macOS-AU.zip`
+- macOS SHA256: `D58323403A619352191FC4EE026AA9650163423994CA28C92F0CF8CE68DD8F36`
+- Architectures: `x86_64 arm64`
 
-Download the zip for your platform from the V1.1.0 release page.
+Download the zip from the V1.2.7 release page.
+
+## Validation
+
+Gateway OS V1.2.7 macOS AU was built in a private macOS CI builder and released here as a binary-only plugin asset.
+
+- Fixed AU editor geometry verified at `600x400`.
+- Universal Mach-O binary verified with `x86_64` and `arm64` slices.
+- Codesign verification passed on the staged AU bundle.
+- Apple AU validation passed with `auval -v aufx G127 SMfo`.
+- The V1.1.8 Logic AU window sizing issue was addressed by matching the AU XIB size to the plugin editor size and preventing host-side AU view stretching.
 
 ## Preset System
 
-Gateway OS V1.1.0 adds a 31-slot preset system.
+Gateway OS includes a 31-slot preset system.
 
 - Preset slots range from `0` to `30`.
 - Click `-` or `+` to move through presets.
@@ -29,6 +39,6 @@ Gateway OS V1.1.0 adds a 31-slot preset system.
 - Switching slots immediately recalls that slot.
 - Unused slots load the default Gateway OS state.
 
-Each preset stores the capture/model, IR, EQ, noise gate, input/output controls, slim setting, oversampling, multicore mode, calibration controls, output mode, color/theme settings, and active preset number.
+Each preset stores the capture/model, IR, EQ, noise gate, input/output controls, slim setting, live/offline oversampling settings, Live HQ mode, multicore mode, calibration controls, output mode, color/theme settings, and active preset number.
 
 DAW project recall stores the full preset bank so sessions reopen with the same settings that were saved.
